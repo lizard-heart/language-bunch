@@ -1,0 +1,14 @@
+{
+  "name": "language-bunch",
+  "version": "0.0.0",
+  "description": "A package to add syntax highlighting for bunch files.",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/lizard-heart/language-bunch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
