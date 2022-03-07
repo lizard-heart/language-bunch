@@ -1,14 +1,22 @@
 {
   "name": "language-bunch",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "A package to add syntax highlighting for bunch files.",
   "keywords": [
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/lizard-heart/language-bunch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizard-heart/language-bunch.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/lizard-heart/language-bunch/issues"
+  },
+  "homepage": "https://github.com/lizard-heart/language-bunch#readme",
+  "author": "Henry Gustafson"
 }
