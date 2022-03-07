@@ -20,4 +20,12 @@ patterns: [
     match: '---'
     name: 'keyword.yaml.bunch'
   }
+  {
+    match: '\\w+: '
+    name: 'variable.bunch'
+  }
+  {
+    match: 'AND|OR|NOT'
+    name: 'keyword.operator.word.bunch'
+  }
 ]
