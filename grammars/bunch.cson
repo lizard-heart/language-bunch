@@ -8,9 +8,22 @@ limitLineLength: false
 
 patterns: [
   {
-    comment: 'Use this to explain the function of the rule, if necessary'
     name: 'comment.line.bunch'
     match: '#.*$'
+  }
+  {
+    name: 'comment.line.bunch'
+    match: '\\/\\/.*$'
+  }
+  {
+    name: 'comment.line.bunch'
+    begin: '\\/\\*'
+    beginCaptures:
+      0: name: 'comment.line.bunch'
+    end: '\\*\\/'
+    endCaptures:
+      0: name: 'comment.line.bunch'
+    patterns: [{ include: '$self' }]
   }
   {
     match: '@|%|\\*'
