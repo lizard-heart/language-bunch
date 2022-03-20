@@ -1,6 +1,6 @@
 {
   "name": "language-bunch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A package to add syntax highlighting for bunch files.",
   "keywords": [
     "language",
