@@ -14,3 +14,18 @@
   'wallpaper':
     'prefix': 'wal'
     'body': 'wallpaper'
+  'dnd':
+    'prefix': 'do '
+    'body': 'do not disturb'
+  'menu bar':
+    'prefix': 'me'
+    'body': 'menu bar'
+  'dock':
+    'prefix': 'doc'
+    'body': 'dock'
+  'audio':
+    'prefix': 'au'
+    'body': 'audio'
+  'notify':
+    'prefix': 'no'
+    'body': 'notify'

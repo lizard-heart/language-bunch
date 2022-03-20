@@ -13,8 +13,36 @@ patterns: [
     match: '#.*$'
   }
   {
-    match: '@'
+    match: '@|%|\\*'
     name: 'keyword.operator.bunch'
+  }
+  {
+    match: '\\((dnd|dark mode|do not disturb|light mode)( )(on|off)\\)'
+    name: 'keyword.command.bunch'
+  }
+  {
+    match: '\\((hide|show)( )(dock|desktop|menu bar)\\)'
+    name: 'keyword.command.bunch'
+  }
+  {
+    match: '\\((dock)( )(left|right|bottom)\\)'
+    name: 'keyword.command.bunch'
+  }
+  {
+    match: '\\((audio)( )(input|output)(.*?)\\)'
+    name: 'keyword.command.bunch'
+  }
+  {
+    match: '\\((notify|display|input source|awake|log|wallpaper)( )(.*?)\\)'
+    name: 'keyword.command.bunch'
+  }
+  {
+    match: '\\((screen|dark mode|light mode)\\)'
+    name: 'keyword.command.bunch'
+  }
+  {
+    match: '\\"(.*?)\\"'
+    name: 'string.bunch'
   }
   {
     match: '---'
@@ -25,7 +53,14 @@ patterns: [
     name: 'variable.bunch'
   }
   {
-    match: 'AND|OR|NOT'
+    match: '^([^ \t]+)'
+    name: 'entity.name.function'
+  }
+  {
+    match: 'AND|OR|NOT|-|='
     name: 'keyword.operator.word.bunch'
   }
 ]
+
+comments:
+  start: '# '
